@@ -1,0 +1,15 @@
+{
+  "facilityImageURL": "",
+  "facilityName": "ISIS",
+  "selectAllSetting": true,
+  "helpSteps": [],
+  "routes": [
+    {
+      "section": "Reduction",
+      "link": "/reduction",
+      "displayName": "Reduction",
+      "order": 0
+    }
+  ],
+  "pluginHost": "http://localhost:3000/"
+}
