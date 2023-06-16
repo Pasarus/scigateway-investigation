@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePage translated homepage renders correctly 1`] = `
+<HomePage
+  backgroundImage="testbackground.jpg"
+  decal1Image="testdecal1.svg"
+  decal2DarkHCImage="testdecal2-darkhc.svg"
+  decal2DarkImage="testdecal2-dark.svg"
+  decal2Image="testdecal2.svg"
+  facilityImage="testfacility.jpg"
+  greenSwirl1Image="testgreen-swirl1.png"
+  greenSwirl2Image="testgreen-swirl2.png"
+  logo="testdatgateway-white-text-blue-mark-logo.svg"
+/>
+`;

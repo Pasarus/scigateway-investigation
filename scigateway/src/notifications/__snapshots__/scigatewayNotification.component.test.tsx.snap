@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Scigateway Notification component Scigateway Notification error message renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+    }
+  }
+>
+  <Memo(ForwardRef(HighlightOffIcon))
+    sx={
+      Object {
+        "color": "red",
+        "height": "20px",
+        "marginLeft": "5px",
+        "marginRight": "5px",
+        "width": "20px",
+      }
+    }
+  />
+  <ForwardRef(Typography)
+    sx={
+      Object {
+        "marginTop": 0.5,
+      }
+    }
+    variant="body2"
+  >
+    error message
+  </ForwardRef(Typography)>
+  <ForwardRef(IconButton)
+    aria-label="Dismiss notification"
+    onClick={[Function]}
+    size="large"
+    sx={
+      Object {
+        "marginLeft": "5px",
+        "marginTop": "2px",
+      }
+    }
+  >
+    <Memo(ForwardRef(ClearIcon))
+      sx={
+        Object {
+          "height": "15px",
+          "width": "15px",
+        }
+      }
+    />
+  </ForwardRef(IconButton)>
+</div>
+`;
+
+exports[`Scigateway Notification component Scigateway Notification success message renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+    }
+  }
+>
+  <Memo(ForwardRef(CheckCircleIcon))
+    sx={
+      Object {
+        "color": "green",
+        "height": "20px",
+        "marginLeft": "5px",
+        "marginRight": "5px",
+        "width": "20px",
+      }
+    }
+  />
+  <ForwardRef(Typography)
+    sx={
+      Object {
+        "marginTop": 0.5,
+      }
+    }
+    variant="body2"
+  >
+    success message
+  </ForwardRef(Typography)>
+  <ForwardRef(IconButton)
+    aria-label="Dismiss notification"
+    onClick={[Function]}
+    size="large"
+    sx={
+      Object {
+        "marginLeft": "5px",
+        "marginTop": "2px",
+      }
+    }
+  >
+    <Memo(ForwardRef(ClearIcon))
+      sx={
+        Object {
+          "height": "15px",
+          "width": "15px",
+        }
+      }
+    />
+  </ForwardRef(IconButton)>
+</div>
+`;
+
+exports[`Scigateway Notification component Scigateway Notification warning message renders correctly 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+    }
+  }
+>
+  <Memo(ForwardRef(ErrorOutlineIcon))
+    sx={
+      Object {
+        "color": [Function],
+        "height": "20px",
+        "marginLeft": "5px",
+        "marginRight": "5px",
+        "width": "20px",
+      }
+    }
+  />
+  <ForwardRef(Typography)
+    sx={
+      Object {
+        "marginTop": 0.5,
+      }
+    }
+    variant="body2"
+  >
+    warning message
+  </ForwardRef(Typography)>
+  <ForwardRef(IconButton)
+    aria-label="Dismiss notification"
+    onClick={[Function]}
+    size="large"
+    sx={
+      Object {
+        "marginLeft": "5px",
+        "marginTop": "2px",
+      }
+    }
+  >
+    <Memo(ForwardRef(ClearIcon))
+      sx={
+        Object {
+          "height": "15px",
+          "width": "15px",
+        }
+      }
+    />
+  </ForwardRef(IconButton)>
+</div>
+`;

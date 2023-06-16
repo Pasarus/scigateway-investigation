@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expand cell component renders correctly when expanded 1`] = `
+<ForwardRef(TableCell)
+  component="div"
+  padding="checkbox"
+  size="small"
+  variant="body"
+>
+  <ForwardRef(IconButton)
+    aria-label="Hide details"
+    onClick={[Function]}
+    size="large"
+  >
+    <Memo(ForwardRef(ExpandLessIcon)) />
+  </ForwardRef(IconButton)>
+</ForwardRef(TableCell)>
+`;
+
+exports[`Expand cell component renders correctly when not expanded 1`] = `
+<ForwardRef(TableCell)
+  component="div"
+  padding="checkbox"
+  size="small"
+  variant="body"
+>
+  <ForwardRef(IconButton)
+    aria-label="Show details"
+    className="tour-dataview-expand"
+    onClick={[Function]}
+    size="large"
+  >
+    <Memo(ForwardRef(ExpandMoreIcon)) />
+  </ForwardRef(IconButton)>
+</ForwardRef(TableCell)>
+`;

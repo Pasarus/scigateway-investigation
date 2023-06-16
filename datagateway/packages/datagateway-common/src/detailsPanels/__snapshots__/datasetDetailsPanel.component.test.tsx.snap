@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dataset details panel component renders correctly 1`] = `
+<Styled(ForwardRef(Grid))
+  container={true}
+  direction="column"
+  id="details-panel"
+>
+  <ForwardRef(Grid)
+    item={true}
+    xs={true}
+  >
+    <ForwardRef(Typography)
+      variant="h6"
+    >
+      <b>
+        Test 1
+      </b>
+    </ForwardRef(Typography)>
+    <Styled(ForwardRef(Divider)) />
+  </ForwardRef(Grid)>
+  <ForwardRef(Grid)
+    item={true}
+    xs={true}
+  >
+    <ForwardRef(Typography)
+      variant="overline"
+    >
+      datasets.description
+    </ForwardRef(Typography)>
+    <ForwardRef(Typography)>
+      <b />
+    </ForwardRef(Typography)>
+  </ForwardRef(Grid)>
+</Styled(ForwardRef(Grid))>
+`;

@@ -1,0 +1,16 @@
+{
+  "facilityImageURL": "",
+  "facilityName": "ISIS",
+  "selectAllSetting": true,
+  "helpSteps": [],
+  "apiUrl": "https://data.isis.stfc.ac.uk/datagateway-api",
+  "routes": [
+    {
+      "section": "Reduction",
+      "link": "/reduction",
+      "displayName": "Reduction",
+      "order": 0
+    }
+  ],
+  "pluginHost": "http://localhost:5001/"
+}

@@ -1,0 +1,373 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Data column header component renders correctly with filter but no sort 1`] = `
+<ForwardRef(TableCell)
+  component="div"
+  size="small"
+  variant="head"
+>
+  <div
+    style={
+      Object {
+        "flex": 1,
+        "overflow": "hidden",
+      }
+    }
+  >
+    <ForwardRef(Box)
+      display="flex"
+    >
+      <ForwardRef(Box)
+        marginRight={1}
+      >
+        <Icon />
+      </ForwardRef(Box)>
+      <ForwardRef(Box)>
+        <ForwardRef(Typography)
+          noWrap={true}
+          sx={
+            Object {
+              "fontSize": "inherit",
+              "lineHeight": "inherit",
+            }
+          }
+        >
+          Test
+        </ForwardRef(Typography)>
+      </ForwardRef(Box)>
+    </ForwardRef(Box)>
+    <TextColumnFilter
+      label="Test"
+      onChange={[MockFunction]}
+    />
+  </div>
+  <Draggable
+    allowAnyClick={false}
+    axis="none"
+    bounds={false}
+    cancel={null}
+    defaultClassName="react-draggable"
+    defaultClassNameDragged="react-draggable-dragged"
+    defaultClassNameDragging="react-draggable-dragging"
+    defaultPosition={
+      Object {
+        "x": 0,
+        "y": 0,
+      }
+    }
+    disabled={false}
+    enableUserSelectHack={true}
+    grid={null}
+    handle={null}
+    offsetParent={null}
+    onDrag={[Function]}
+    onMouseDown={[Function]}
+    onStart={[Function]}
+    onStop={[Function]}
+    position={null}
+    scale={1}
+    transform={null}
+  >
+    <div
+      style={
+        Object {
+          "cursor": "col-resize",
+          "marginLeft": 18,
+          "paddingLeft": "4px",
+          "paddingRight": "4px",
+        }
+      }
+    >
+      <ForwardRef(Divider)
+        flexItem={true}
+        orientation="vertical"
+        sx={
+          Object {
+            "height": "100%",
+          }
+        }
+      />
+    </div>
+  </Draggable>
+</ForwardRef(TableCell)>
+`;
+
+exports[`Data column header component renders correctly with sort and filter 1`] = `
+<ForwardRef(TableCell)
+  component="div"
+  size="small"
+  variant="head"
+>
+  <div
+    style={
+      Object {
+        "flex": 1,
+        "overflow": "hidden",
+      }
+    }
+  >
+    <ForwardRef(Box)
+      display="flex"
+    >
+      <ForwardRef(Box)
+        marginRight={1}
+      >
+        <Icon />
+      </ForwardRef(Box)>
+      <ForwardRef(Box)>
+        <ForwardRef(TableSortLabel)
+          active={false}
+          className="tour-dataview-sort"
+          onClick={[Function]}
+        >
+          <ForwardRef(Typography)
+            noWrap={true}
+            sx={
+              Object {
+                "fontSize": "inherit",
+                "lineHeight": "inherit",
+              }
+            }
+          >
+            Test
+          </ForwardRef(Typography)>
+        </ForwardRef(TableSortLabel)>
+      </ForwardRef(Box)>
+    </ForwardRef(Box)>
+    <TextColumnFilter
+      label="Test"
+      onChange={[MockFunction]}
+    />
+  </div>
+  <Draggable
+    allowAnyClick={false}
+    axis="none"
+    bounds={false}
+    cancel={null}
+    defaultClassName="react-draggable"
+    defaultClassNameDragged="react-draggable-dragged"
+    defaultClassNameDragging="react-draggable-dragging"
+    defaultPosition={
+      Object {
+        "x": 0,
+        "y": 0,
+      }
+    }
+    disabled={false}
+    enableUserSelectHack={true}
+    grid={null}
+    handle={null}
+    offsetParent={null}
+    onDrag={[Function]}
+    onMouseDown={[Function]}
+    onStart={[Function]}
+    onStop={[Function]}
+    position={null}
+    scale={1}
+    transform={null}
+  >
+    <div
+      style={
+        Object {
+          "cursor": "col-resize",
+          "marginLeft": 18,
+          "paddingLeft": "4px",
+          "paddingRight": "4px",
+        }
+      }
+    >
+      <ForwardRef(Divider)
+        flexItem={true}
+        orientation="vertical"
+        sx={
+          Object {
+            "height": "100%",
+          }
+        }
+      />
+    </div>
+  </Draggable>
+</ForwardRef(TableCell)>
+`;
+
+exports[`Data column header component renders correctly with sort but no filter 1`] = `
+<ForwardRef(TableCell)
+  component="div"
+  size="small"
+  variant="head"
+>
+  <div
+    style={
+      Object {
+        "flex": 1,
+        "overflow": "hidden",
+      }
+    }
+  >
+    <ForwardRef(Box)
+      display="flex"
+    >
+      <ForwardRef(Box)
+        marginRight={1}
+      >
+        <Icon />
+      </ForwardRef(Box)>
+      <ForwardRef(Box)>
+        <ForwardRef(TableSortLabel)
+          active={false}
+          className="tour-dataview-sort"
+          onClick={[Function]}
+        >
+          <ForwardRef(Typography)
+            noWrap={true}
+            sx={
+              Object {
+                "fontSize": "inherit",
+                "lineHeight": "inherit",
+              }
+            }
+          >
+            Test
+          </ForwardRef(Typography)>
+        </ForwardRef(TableSortLabel)>
+      </ForwardRef(Box)>
+    </ForwardRef(Box)>
+  </div>
+  <Draggable
+    allowAnyClick={false}
+    axis="none"
+    bounds={false}
+    cancel={null}
+    defaultClassName="react-draggable"
+    defaultClassNameDragged="react-draggable-dragged"
+    defaultClassNameDragging="react-draggable-dragging"
+    defaultPosition={
+      Object {
+        "x": 0,
+        "y": 0,
+      }
+    }
+    disabled={false}
+    enableUserSelectHack={true}
+    grid={null}
+    handle={null}
+    offsetParent={null}
+    onDrag={[Function]}
+    onMouseDown={[Function]}
+    onStart={[Function]}
+    onStop={[Function]}
+    position={null}
+    scale={1}
+    transform={null}
+  >
+    <div
+      style={
+        Object {
+          "cursor": "col-resize",
+          "marginLeft": 18,
+          "paddingLeft": "4px",
+          "paddingRight": "4px",
+        }
+      }
+    >
+      <ForwardRef(Divider)
+        flexItem={true}
+        orientation="vertical"
+        sx={
+          Object {
+            "height": "100%",
+          }
+        }
+      />
+    </div>
+  </Draggable>
+</ForwardRef(TableCell)>
+`;
+
+exports[`Data column header component renders correctly without sort or filter 1`] = `
+<ForwardRef(TableCell)
+  component="div"
+  size="small"
+  variant="head"
+>
+  <div
+    style={
+      Object {
+        "flex": 1,
+        "overflow": "hidden",
+      }
+    }
+  >
+    <ForwardRef(Box)
+      display="flex"
+    >
+      <ForwardRef(Box)
+        marginRight={1}
+      >
+        <Icon />
+      </ForwardRef(Box)>
+      <ForwardRef(Box)>
+        <ForwardRef(Typography)
+          noWrap={true}
+          sx={
+            Object {
+              "fontSize": "inherit",
+              "lineHeight": "inherit",
+            }
+          }
+        >
+          Test
+        </ForwardRef(Typography)>
+      </ForwardRef(Box)>
+    </ForwardRef(Box)>
+  </div>
+  <Draggable
+    allowAnyClick={false}
+    axis="none"
+    bounds={false}
+    cancel={null}
+    defaultClassName="react-draggable"
+    defaultClassNameDragged="react-draggable-dragged"
+    defaultClassNameDragging="react-draggable-dragging"
+    defaultPosition={
+      Object {
+        "x": 0,
+        "y": 0,
+      }
+    }
+    disabled={false}
+    enableUserSelectHack={true}
+    grid={null}
+    handle={null}
+    offsetParent={null}
+    onDrag={[Function]}
+    onMouseDown={[Function]}
+    onStart={[Function]}
+    onStop={[Function]}
+    position={null}
+    scale={1}
+    transform={null}
+  >
+    <div
+      style={
+        Object {
+          "cursor": "col-resize",
+          "marginLeft": 18,
+          "paddingLeft": "4px",
+          "paddingRight": "4px",
+        }
+      }
+    >
+      <ForwardRef(Divider)
+        flexItem={true}
+        orientation="vertical"
+        sx={
+          Object {
+            "height": "100%",
+          }
+        }
+      />
+    </div>
+  </Draggable>
+</ForwardRef(TableCell)>
+`;

@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Maintenance page component should render correctly 1`] = `
+<ForwardRef(Box)
+  sx={
+    Object {
+      "backgroundColor": "background.default",
+      "padding": 2,
+      "textAlign": "center",
+    }
+  }
+>
+  <ForwardRef(Typography)
+    sx={
+      Object {
+        "color": "secondary.main",
+        "fontWeight": "bold",
+      }
+    }
+    variant="h3"
+  >
+    Maintenance
+  </ForwardRef(Typography)>
+  <ForwardRef(Box)
+    sx={
+      Object {
+        "color": "text.primary",
+        "display": "flex",
+        "flexDirection": "column",
+        "marginBottom": 2,
+        "marginTop": 2,
+      }
+    }
+  >
+    <ForwardRef(Typography)
+      variant="h4"
+    >
+      test
+    </ForwardRef(Typography)>
+  </ForwardRef(Box)>
+</ForwardRef(Box)>
+`;

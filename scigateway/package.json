@@ -1,0 +1,136 @@
+{
+  "name": "scigateway",
+  "version": "1.1.0",
+  "private": true,
+  "resolutions": {
+    "@types/react": "17.0.38",
+    "@types/react-dom": "17.0.11"
+  },
+  "dependencies": {
+    "@emotion/react": "11.10.0",
+    "@emotion/styled": "11.10.0",
+    "@mui/icons-material": "5.10.3",
+    "@mui/material": "5.10.0",
+    "@types/jest": "29.2.0",
+    "@types/js-cookie": "3.0.1",
+    "@types/react-dom": "17.0.11",
+    "@types/react-redux-toastr": "7.6.0",
+    "@types/react-router-dom": "5.3.1",
+    "@types/redux-logger": "3.0.8",
+    "axios": "0.27.2",
+    "connected-react-router": "6.9.1",
+    "cookie-parser": "1.4.5",
+    "custom-event-polyfill": "1.0.7",
+    "cypress-failed-log": "2.10.0",
+    "eslint-config-prettier": "8.5.0",
+    "eslint-plugin-cypress": "2.12.1",
+    "eslint-plugin-prettier": "4.2.1",
+    "express": "4.18.1",
+    "husky": "8.0.1",
+    "i18next": "21.10.0",
+    "i18next-browser-languagedetector": "7.0.0",
+    "i18next-http-backend": "1.4.0",
+    "js-cookie": "3.0.1",
+    "jsonwebtoken": "8.5.1",
+    "loglevel": "1.8.0",
+    "prettier": "2.7.1",
+    "prop-types": "15.8.1",
+    "query-string": "7.1.1",
+    "react": "17.0.2",
+    "react-app-polyfill": "3.0.0",
+    "react-dom": "17.0.2",
+    "react-ga": "3.3.0",
+    "react-i18next": "11.18.3",
+    "react-joyride": "2.5.0",
+    "react-redux": "8.0.4",
+    "react-redux-toastr": "7.6.8",
+    "react-router-dom": "5.3.0",
+    "react-scripts": "5.0.0",
+    "redux": "4.2.0",
+    "redux-logger": "3.0.6",
+    "redux-thunk": "2.4.1",
+    "single-spa": "5.9.1",
+    "typeface-roboto": "1.1.13",
+    "typescript": "4.7.4"
+  },
+  "scripts": {
+    "lint:js": "eslint --max-warnings=0 --ext=tsx --ext=ts --ext=js --ext=jsx --fix ./src",
+    "lint:cypress": "eslint --ext=tsx --ext=js --ext=jsx --fix ./cypress",
+    "serve:plugins": "node micro-frontend-tools/serve-plugins.js",
+    "start": "cross-env concurrently \"yarn serve:plugins\" \"node server/auth-server.js\" \"react-scripts start\"",
+    "build": "react-scripts build",
+    "build:e2e": "cross-env GENERATE_SOURCEMAP=false react-scripts build",
+    "test": "react-scripts test --env=jsdom --coverage --watchAll=false",
+    "test:watch": "react-scripts test --env=jsdom --watch",
+    "e2e:serve": "yarn build:e2e && concurrently \"node server/auth-server.js e2e\" \"node ./server/e2e-test-server.js\"",
+    "e2e:interactive": "start-server-and-test e2e:serve http://localhost:3000 cy:open",
+    "e2e": "start-server-and-test e2e:serve http://localhost:3000 cy:run",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "eject": "react-scripts eject",
+    "postinstall": "husky install"
+  },
+  "lint-staged": {
+    "src/**/*.{tsx,js,jsx,json}": [
+      "eslint --max-warnings=0 --ext=tsx --ext=ts --ext=js --ext=jsx --fix",
+      "prettier --config .prettierrc --write"
+    ],
+    "cypress/**/*.{tsx,js,jsx}": [
+      "eslint --fix",
+      "prettier --config .prettierrc --write"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.{tsx,js,jsx,ts}",
+      "!src/index.tsx",
+      "!src/serviceWorker.ts",
+      "!src/setupTests.ts",
+      "!src/state/reducers/App.reducer.tsx",
+      "!src/state/actions/loadMicroFrontends.tsx"
+    ]
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 10",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@craco/craco": "^6.4.5",
+    "@testing-library/jest-dom": "5.16.5",
+    "@testing-library/react": "12.1.5",
+    "@testing-library/user-event": "14.4.2",
+    "@types/history": "4.7.3",
+    "@types/jsonwebtoken": "8.5.0",
+    "@types/node": "17.0.17",
+    "@types/react": "17.0.38",
+    "@types/react-redux": "7.1.20",
+    "@types/react-router": "5.1.12",
+    "@types/redux-mock-store": "1.0.2",
+    "@typescript-eslint/eslint-plugin": "5.40.1",
+    "@typescript-eslint/parser": "5.40.1",
+    "@wojtekmaj/enzyme-adapter-react-17": "0.6.6",
+    "axios-mock-adapter": "1.21.1",
+    "babel-eslint": "10.1.0",
+    "concurrently": "7.5.0",
+    "cross-env": "7.0.3",
+    "cypress": "9.7.0",
+    "enzyme": "3.11.0",
+    "enzyme-to-json": "3.6.2",
+    "eslint": "8.26.0",
+    "eslint-config-react-app": "7.0.0",
+    "lint-staged": "13.0.3",
+    "redux-mock-store": "1.5.4",
+    "serve": "^14.0.1",
+    "start-server-and-test": "1.14.0",
+    "wait-on": "6.0.1"
+  },
+  "packageManager": "yarn@3.2.4"
+}

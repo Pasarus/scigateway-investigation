@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Datafile details panel component renders correctly 1`] = `
+<Styled(ForwardRef(Grid))
+  container={true}
+  direction="column"
+  id="details-panel"
+>
+  <ForwardRef(Grid)
+    item={true}
+    xs={true}
+  >
+    <ForwardRef(Typography)
+      variant="h6"
+    >
+      <b>
+        Test 1
+      </b>
+    </ForwardRef(Typography)>
+    <Styled(ForwardRef(Divider)) />
+  </ForwardRef(Grid)>
+  <ForwardRef(Grid)
+    item={true}
+    xs={true}
+  >
+    <ForwardRef(Typography)
+      variant="overline"
+    >
+      datafiles.size
+    </ForwardRef(Typography)>
+    <ForwardRef(Typography)>
+      <b>
+        1 B
+      </b>
+    </ForwardRef(Typography)>
+  </ForwardRef(Grid)>
+  <ForwardRef(Grid)
+    item={true}
+    xs={true}
+  >
+    <ForwardRef(Typography)
+      variant="overline"
+    >
+      datafiles.location
+    </ForwardRef(Typography)>
+    <ForwardRef(Typography)>
+      <b>
+        /test1
+      </b>
+    </ForwardRef(Typography)>
+  </ForwardRef(Grid)>
+</Styled(ForwardRef(Grid))>
+`;

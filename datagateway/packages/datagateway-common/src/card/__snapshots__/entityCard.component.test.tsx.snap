@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card renders correctly 1`] = `
+<ForwardRef(Card)
+  data-testid="card"
+  sx={
+    Object {
+      "backgroundColor": "background.paper",
+      "display": "flex",
+      "width": "100%",
+    }
+  }
+>
+  <ForwardRef(CardContent)
+    sx={
+      Object {
+        "minWidth": 0,
+        "width": "100%",
+      }
+    }
+  >
+    <div
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+        }
+      }
+    >
+      <ForwardRef(Box)
+        sx={
+          Object {
+            "display": "flex",
+            "flexBasis": "45vw",
+            "flexDirection": "column",
+            "flexGrow": 1,
+            "flexShrink": 1,
+            "minWidth": "30vw",
+            "paddingRight": "10px",
+          }
+        }
+      >
+        <div
+          aria-label="main-content"
+        >
+          <ArrowTooltip
+            enterDelay={500}
+            title="Title"
+          >
+            <ForwardRef(Typography)
+              aria-label="card-title"
+              noWrap={true}
+              sx={
+                Object {
+                  "display": "inline-block",
+                  "maxWidth": "100%",
+                  "overflow": "hidden",
+                  "textOverflow": "ellipsis",
+                }
+              }
+              variant="h5"
+            >
+              Title
+            </ForwardRef(Typography)>
+          </ArrowTooltip>
+          <ForwardRef(Box)
+            sx={
+              Object {
+                "& a": Object {
+                  "cursor": "pointer",
+                },
+              }
+            }
+          >
+            <ForwardRef(Collapse)
+              collapsedSize={100}
+              in={false}
+            >
+              <ForwardRef(Typography)
+                aria-label="card-description"
+                paragraph={true}
+                variant="body1"
+              >
+                entity_card.no_description
+              </ForwardRef(Typography)>
+            </ForwardRef(Collapse)>
+          </ForwardRef(Box)>
+        </div>
+      </ForwardRef(Box)>
+      <div
+        style={
+          Object {
+            "paddingLeft": "15px",
+          }
+        }
+      />
+    </div>
+  </ForwardRef(CardContent)>
+</ForwardRef(Card)>
+`;

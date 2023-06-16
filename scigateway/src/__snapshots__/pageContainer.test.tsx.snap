@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PageContainer - Tests renders correctly 1`] = `
+<Styled(div)>
+  <Connect(Preloader)
+    fullScreen={true}
+  />
+  <Connect(MainAppBar) />
+  <Connect(NavigationDrawer) />
+  <Connect(Tour) />
+  <Connect(CookieConsent) />
+  <Connect(Routing) />
+  <Connect(Footer) />
+</Styled(div)>
+`;

@@ -1,0 +1,40 @@
+coverage:
+  status:
+    project:
+      default: false
+      common:
+        flags:
+          - common
+        target: auto
+        threshold: 5
+      dataview:
+        flags:
+          - dataview
+        target: auto
+        threshold: 5
+      search:
+        flags:
+          - search
+        target: auto
+        threshold: 5
+      download:
+        flags:
+          - download
+        target: auto
+        threshold: 5
+    patch:
+      default:
+        target: 75
+flags:
+  common:
+    paths:
+      - packages/datagateway-common/src
+  dataview:
+    paths:
+      - packages/datagateway-dataview/src
+  search:
+    paths:
+      - packages/datagateway-search/src
+  download:
+    paths:
+      - packages/datagateway-download/src

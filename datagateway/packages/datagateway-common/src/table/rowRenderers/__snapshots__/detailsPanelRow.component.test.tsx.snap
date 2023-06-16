@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Details panel row component renders correctly 1`] = `
+<ForwardRef(Box)
+  className="test-class"
+  key="1"
+  sx={
+    Object {
+      "display": "flex",
+      "flexDirection": "column",
+      "height": 30,
+      "paddingRight": 15,
+    }
+  }
+>
+  <div
+    aria-rowindex={2}
+    className="test-class"
+    role="row"
+    style={
+      Object {
+        "height": 30,
+        "paddingRight": 15,
+        "position": "static",
+        "width": 30,
+      }
+    }
+  />
+  <div
+    style={
+      Object {
+        "marginLeft": 10,
+        "marginRight": "auto",
+        "maxWidth": 20,
+      }
+    }
+  >
+    <detailsPanel
+      rowData="test"
+    />
+  </div>
+</ForwardRef(Box)>
+`;

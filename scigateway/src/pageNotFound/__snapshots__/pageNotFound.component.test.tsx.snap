@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Page Not found component renders pageNotFound page correctly 1`] = `
+<div>
+  <ForwardRef(Box)
+    sx={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "background.default",
+        "display": "flex",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Memo(ForwardRef(BugReportIcon))
+      sx={
+        Object {
+          "color": [Function],
+          "height": "10vw",
+          "width": "10vw",
+        }
+      }
+    />
+    <ForwardRef(Typography)
+      sx={
+        Object {
+          "color": [Function],
+          "fontSize": "10vw",
+          "fontWeight": "bold",
+        }
+      }
+    >
+      404
+    </ForwardRef(Typography)>
+  </ForwardRef(Box)>
+  <ForwardRef(Box)
+    sx={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "background.default",
+        "display": "flex",
+        "flexDirection": "column",
+        "justifyContent": "center",
+      }
+    }
+  >
+    <ForwardRef(Typography)
+      sx={
+        Object {
+          "color": "text.primary",
+        }
+      }
+      variant="h2"
+    >
+      page-not-found.title
+    </ForwardRef(Typography)>
+    <ForwardRef(Typography)
+      sx={
+        Object {
+          "color": "text.secondary",
+          "maxWidth": "600px",
+          "padding": "15px",
+          "textAlign": "center",
+        }
+      }
+      variant="body1"
+    >
+      <Trans
+        i18nKey="page-not-found.message"
+        t={[Function]}
+      >
+        We're sorry, the page you requested was not found on the server. If you entered the URL manually please check your spelling and try again. Otherwise, return to the
+         
+        <Styled(Link)
+          data-test-id="page-not-found-homepage-link"
+          to="/"
+        >
+          homepage
+        </Styled(Link)>
+         
+        or
+         
+        <Styled(Link)
+          data-test-id="page-not-found-contact-support-link"
+          to="footer.links.contact"
+        >
+          contact support
+        </Styled(Link)>
+        .
+      </Trans>
+    </ForwardRef(Typography)>
+  </ForwardRef(Box)>
+</div>
+`;

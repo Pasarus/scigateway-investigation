@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Investigation details panel component renders correctly 1`] = `
+<Styled(ForwardRef(Grid))
+  container={true}
+  direction="column"
+  id="details-panel"
+>
+  <ForwardRef(Grid)
+    item={true}
+    xs={true}
+  >
+    <ForwardRef(Typography)
+      variant="h6"
+    >
+      <b>
+        Test 1
+      </b>
+    </ForwardRef(Typography)>
+    <Styled(ForwardRef(Divider)) />
+  </ForwardRef(Grid)>
+  <ForwardRef(Grid)
+    item={true}
+    xs={true}
+  >
+    <ForwardRef(Typography)
+      variant="overline"
+    >
+      investigations.details.name
+    </ForwardRef(Typography)>
+    <ForwardRef(Typography)>
+      <b>
+        Test 1
+      </b>
+    </ForwardRef(Typography)>
+  </ForwardRef(Grid)>
+  <ForwardRef(Grid)
+    item={true}
+    xs={true}
+  >
+    <ForwardRef(Typography)
+      variant="overline"
+    >
+      investigations.details.start_date
+    </ForwardRef(Typography)>
+    <ForwardRef(Typography)>
+      <b>
+        2019-06-10
+      </b>
+    </ForwardRef(Typography)>
+  </ForwardRef(Grid)>
+  <ForwardRef(Grid)
+    item={true}
+    xs={true}
+  >
+    <ForwardRef(Typography)
+      variant="overline"
+    >
+      investigations.details.end_date
+    </ForwardRef(Typography)>
+    <ForwardRef(Typography)>
+      <b>
+        2019-06-11
+      </b>
+    </ForwardRef(Typography)>
+  </ForwardRef(Grid)>
+</Styled(ForwardRef(Grid))>
+`;
